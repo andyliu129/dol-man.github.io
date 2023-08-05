@@ -1,0 +1,74 @@
+
+
+/*    */
+* {
+    font-size: 20px
+}
+
+@font-face {
+    font-family: Game On;
+    src: url('../static/gameon.woff2') format('woff2');
+}
+
+html {
+    font-family: Game On, Verdana, Geneva, Tahoma, sans-serif;
+    background: url('../static/dbg.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+    font-size: 3em;
+    cursor: url('../static/maidemote.png'), auto;
+}
+
+h1 {
+    font-size: 5em;  
+    color: #8aedf2; 
+    margin-bottom: 10px;
+}
+
+h2 {
+    text-decoration: underline;
+    font-size: 3em;  
+    color: #8aedf2;
+
+}
+
+#rules, #play, #info {
+    font-family: Game On, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+    background-color: #fb5581;
+    color: #8aedf2;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    opacity: 80%;
+    margin: 20px;
+    cursor: url('../static/maidemote.png'), auto;
+}
+
+#rules:hover, #play:hover, #info:hover {
+    transition-duration: 0.6s;
+    background-color: #8aedf2;
+    color: #fb5581;
+}
+
+body {
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    text-align: center; 
+    align-items: center;  
+    color: #fb5581
+
+}
+
+
+
+
+canvas {
+    display: block;
+    margin: 1em auto;
+    background-color: aqua;
+}
